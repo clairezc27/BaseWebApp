@@ -9,3 +9,69 @@ function myFunction() {
   $("#doge-image").append(`<img class="img-circle" src="images/wowdoge.jpeg" />`);
 }
 
+function calculation() {
+	if(document.getElementById('date_Walk').checked) {
+  		console.log("date walk is checked");
+  		if(document.getElementById('dress_Red').checked) {
+  			if(document.getElementById('whisper').checked) {
+  				if(document.getElementById('accent').checked) {
+  					
+  				} else if(document.getElementById('sloth').checked) {
+
+  				}
+  			} else if(document.getElementById('story').checked) {
+  				if(document.getElementById('accent').checked) {
+
+  				} else if(document.getElementById('sloth').checked) {
+
+  				}
+  			}
+  		} else if(document.getElementById('dress_Glitter').checked) {
+  			if(document.getElementById('dress_Red').checked) {
+  				if(document.getElementById('accent').checked) {
+
+  				} else if(document.getElementById('sloth').checked) {
+
+  				}
+  			} else if(document.getElementById('dress_Glitter').checked) {
+  				if(document.getElementById('accent').checked) {
+
+  				} else if(document.getElementById('sloth').checked) {
+
+  				}
+  			}
+  		}
+	}else if(document.getElementById('date_Movie').checked) {
+		console.log("date movie is checked");
+		if(document.getElementById('dress_Red').checked) {
+  			if(document.getElementById('whisper').checked) {
+  				if(document.getElementById('whisper').checked) {
+
+  				} else if(document.getElementById('story').checked) {
+
+  				}
+  			} else if(document.getElementById('story').checked) {
+  				if(document.getElementById('whisper').checked) {
+
+  				} else if(document.getElementById('story').checked) {
+
+  				}
+  			}
+  		} else if(document.getElementById('dress_Glitter').checked) {
+  			if(document.getElementById('whisper').checked) {
+  				if(document.getElementById('whisper').checked) {
+
+  				} else if(document.getElementById('story').checked) {
+
+  				}
+  			} else if(document.getElementById('story').checked) {
+  				if(document.getElementById('whisper').checked) {
+
+  				} else if(document.getElementById('story').checked) {
+
+  				}
+  			}
+  		}
+	}
+}
+

@@ -16,12 +16,46 @@
   </p>
   <div class = "question-1">
     <h3> What is your ideal date? </h3>
-    <img src = "https://www.myoutislands.com/public_docs/blog/content/brand-center-romance-couple-walking-on-beach.png" alt = "Walk on beach" width = "128" height = "128">
-    <img src = "https://image.freepik.com/free-photo/couple-watching-movie-bed_23-2147771149.jpg" alt = "Movie" width = "128" height = "128">
+    <img src = "https://www.myoutislands.com/public_docs/blog/content/brand-center-romance-couple-walking-on-beach.png" alt = "Walk on beach" width = "200" height = "200">
+    <img src = "https://image.freepik.com/free-photo/couple-watching-movie-bed_23-2147771149.jpg" alt = "Movie" width = "200" height = "200">
+    <p><input type="radio" name="date" id="date_Walk" value="Walk" />
+      <label for="date_Walk">Walk</label>
+      <input type="radio" name="date" id="date_Movie" value="Movie" />
+      <label for="date_Movie">Movie</label></p>
   </div>
 
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
+  <div class = "question-2">
+    <h3> What are you wearing on the first night? </h3>
+    <img src = "https://www.estylecdn.com/manufcols/sherrihill/current/zoomalt/sherrihill_51822_red_1.jpg" alt = "red dress" width = "200" height = "200">
+    <img src = "https://s7d4.scene7.com/is/image/JCPenney/DP1210201809010312M.tif?wid=350&hei=350&op_usm=.4,.8,0,0&resmode=sharp2" alt = "glitter dress" width = "200" height = "200">
+    <p><input type="radio" name="dress" id="dress_Red" value="Red" />
+      <label for="dress_Red">Red</label>
+      <input type="radio" name="dress" id="dress_Glitter" value="Glitter" />
+      <label for="dress_Glitter">Glitter</label></p>
+  </div>
+
+  <div class = "question-3">
+    <h3> How do you stand out in a group date? </h3>
+    <img src = "https://bungalower.com/wp-content/uploads/2015/03/Secret-Whisper.jpg" alt = "talk shit" width = "200" height = "200">
+    <img src = "https://tul.imgix.net/content/article/crying-fed-square.jpg?auto=format,compress&w=740&h=486&fit=crop" alt = "sad story" width = "200" height = "200">
+    <p><input type="radio" name="whisper" id="whisper" value="Whisper" />
+      <label for="whisper">Talk shit</label>
+      <input type="radio" name="story" id="story" value="Story" />
+      <label for="date_Walk">Tell a sad story</label></p>
+  </div>
+
+  <div class = "question-4">
+    <h3> How do you make your first entrance? </h3>
+    <img src = "https://laurasgroi.files.wordpress.com/2013/07/australia-flag-map.png" alt = "accent" width = "200" height = "200">
+    <img src = "https://m.media-amazon.com/images/I/711YgQwfgaL._SR500,500_.jpg" alt = "sloth" width = "200" height = "200">
+    <p><input type="radio" name="accent" id="accent" value="Accent" />
+      <label for="whisper">Fake an accent</label>
+      <input type="radio" name="sloth" id="sloth" value="Sloth" />
+      <label for="date_Walk">Dress up as a sloth</label></p>
+  </div>
+
+  <button class="btn btn-default" type="button" onclick="calculation()">
+    See my result!
   </button>
 
   <div id="doge-image"/>
